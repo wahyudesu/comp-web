@@ -21,6 +21,9 @@
 		"check-types": "turbo check-types",
 		"dev:native": "turbo -F native dev",
 		"dev:web": "turbo -F web dev",
+		"preview": "cd apps/web && bun run preview",
+		"deploy": "cd apps/web && bun run deploy",
+		"cf-typegen": "cd apps/web && bun run cf-typegen",
 		"db:push": "turbo -F @comp-web/db db:push",
 		"db:studio": "turbo -F @comp-web/db db:studio",
 		"db:generate": "turbo -F @comp-web/db db:generate",
@@ -28,6 +31,7 @@
 	},
 	"dependencies": {
 		"dotenv": "catalog:",
+		"drizzle-seed": "^0.3.1",
 		"zod": "catalog:"
 	},
 	"devDependencies": {
