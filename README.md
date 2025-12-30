@@ -1,7 +1,5 @@
 # comp-web
 
-This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines Next.js, Self, and more.
-
 ## Features
 
 - **TypeScript** - For type safety and improved developer experience
@@ -14,6 +12,14 @@ This project was created with [Better-T-Stack](https://github.com/AmanVarshney01
 - **Husky** - Git hooks for code quality
 - **PWA** - Progressive Web App support
 - **Turborepo** - Optimized monorepo build system
+
+(tambahan)
+
+- **arcjet** - For security
+- **novu** - notification
+- **openstatus** / betterstack
+- **posthog** - analytics
+- **featurebase / crisp** - customer support & feedback platform
 
 ## Getting Started
 
@@ -43,12 +49,6 @@ bun run dev
 
 Open [http://localhost:3001](http://localhost:3001) in your browser to see your fullstack application.
 
-
-
-
-
-
-
 ## Project Structure
 
 ```
@@ -58,6 +58,38 @@ comp-web/
 ├── packages/
 │   ├── api/         # API layer / business logic
 ```
+
+## Sitemaps
+
+### landingpage
+
+heroes sederhana yang menampilkan, +23 lomba per minggu
+
+nampilin grid lomba lomba dalam ui yg mudah dibaca user, interaksinya mirip seperti instagram
+
+### about-us
+
+nyeritain siapa kami dan apa tujuan kami 
+
+### categories
+
+jenis lomba lomba berdasarkan kategori
+
+### institute
+
+
+### resources
+
+
+### randomize
+
+dapetin data random dari lomba-lomba yang sedang aktif
+
+## Features
+
+- toggle theme
+- mobile responsive
+- fast
 
 ## Available Scripts
 
